@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-04T13:12:21 IST" name="Default suite" finished-at="2026-04-04T13:12:57 IST" duration-ms="36246">
+  <suite started-at="2026-04-04T18:25:34 IST" name="Default suite" finished-at="2026-04-04T18:25:45 IST" duration-ms="11334">
     <groups>
     </groups>
-    <test started-at="2026-04-04T13:12:21 IST" name="Default test" finished-at="2026-04-04T13:12:57 IST" duration-ms="36246">
-      <class name="registerPagePackage.Register.TC_RF_005">
-        <test-method signature="registerFunctionality()[pri:0, instance:registerPagePackage.Register.TC_RF_005@55141def]" started-at="2026-04-04T13:12:21 IST" name="registerFunctionality" finished-at="2026-04-04T13:12:57 IST" duration-ms="36203" status="PASS">
+    <test started-at="2026-04-04T18:25:34 IST" name="Default test" finished-at="2026-04-04T18:25:45 IST" duration-ms="11334">
+      <class name="registerPagePackage.Register.TC_RF_006">
+        <test-method signature="registerVerificationWithPrivacyPolicyNo()[pri:0, instance:registerPagePackage.Register.TC_RF_006@55141def]" started-at="2026-04-04T18:25:34 IST" name="registerVerificationWithPrivacyPolicyNo" finished-at="2026-04-04T18:25:45 IST" duration-ms="11290" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerFunctionality -->
-      </class> <!-- registerPagePackage.Register.TC_RF_005 -->
+        </test-method> <!-- registerVerificationWithPrivacyPolicyNo -->
+      </class> <!-- registerPagePackage.Register.TC_RF_006 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

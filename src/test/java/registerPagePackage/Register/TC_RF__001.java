@@ -51,7 +51,6 @@ public class TC_RF__001 {
 		
 		String expectedProperDetails = driver.findElement(By.id("content")).getText();
 		
-		System.out.println(expectedProperDetails);
 		
 		assertTrue(expectedProperDetails.contains(actualProperDetailsOne));
 		assertTrue(expectedProperDetails.contains(actualProperDetailsTwo));
