@@ -8,11 +8,10 @@ public class temp {
 		
 		LocalDateTime date = LocalDateTime.now();
 		String dateToString = date.toString();
-		String dateNoHyphen = dateToString.replace("-", "");
-		String dateNoColon = dateNoHyphen.replaceAll(":","");
-		String finalDate = dateNoColon+"@gmail.com";
-		
-		System.out.println(finalDate);
+		String dateNoColon = dateToString.replace(":", "");
+		String dateNoHyphen = dateNoColon.replace("-", "");
+		String dateFinal = dateNoHyphen+"@gmail.com";
+		System.out.println(dateFinal);
 		
 	}
 
