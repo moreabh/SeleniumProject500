@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-05T16:00:46 IST" name="Default suite" finished-at="2026-04-05T16:00:53 IST" duration-ms="7310">
+  <suite started-at="2026-04-05T16:31:29 IST" name="Default suite" finished-at="2026-04-05T16:31:38 IST" duration-ms="8745">
     <groups>
     </groups>
-    <test started-at="2026-04-05T16:00:46 IST" name="Default test" finished-at="2026-04-05T16:00:53 IST" duration-ms="7310">
-      <class name="registerPagePackage.Register.TC_RF_008">
-        <test-method signature="registerPasswordFieldVerification()[pri:0, instance:registerPagePackage.Register.TC_RF_008@55182842]" started-at="2026-04-05T16:00:46 IST" name="registerPasswordFieldVerification" finished-at="2026-04-05T16:00:53 IST" duration-ms="7264" status="PASS">
+    <test started-at="2026-04-05T16:31:29 IST" name="Default test" finished-at="2026-04-05T16:31:38 IST" duration-ms="8745">
+      <class name="registerPagePackage.Register.TC_RF_009">
+        <test-method signature="existingAccountDetails()[pri:0, instance:registerPagePackage.Register.TC_RF_009@55141def]" started-at="2026-04-05T16:31:29 IST" name="existingAccountDetails" finished-at="2026-04-05T16:31:38 IST" duration-ms="8709" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerPasswordFieldVerification -->
-      </class> <!-- registerPagePackage.Register.TC_RF_008 -->
+        </test-method> <!-- existingAccountDetails -->
+      </class> <!-- registerPagePackage.Register.TC_RF_009 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

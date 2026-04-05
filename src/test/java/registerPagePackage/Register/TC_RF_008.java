@@ -30,14 +30,15 @@ public class TC_RF_008 {
 		driver.findElement(By.id("input-confirm")).sendKeys("abcde");
 		driver.findElement(By.xpath("//input[@name='agree']")).click();
 		driver.findElement(By.xpath("//input[@value='Continue']")).click();
-		Thread.sleep(2000);
+		
 		
 		//verification
 		
 		String expectedWarning = "Password confirmation does not match password!";
 		
 		assertEquals(driver.findElement(By.xpath("//div[text()='Password confirmation does not match password!']")).getText(),expectedWarning);
-	
+		Thread.sleep(2000);
+		
 		driver.quit();
 	}
 	
