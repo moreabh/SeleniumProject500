@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="registerPagePackage.Register.TC_RF_010">
+      <class name="registerPagePackage.Register.TC_RF_11">
         <methods>
-          <include name="verifyingRegisteringAccountUsingInvalidEmail"/>
+          <include name="VerifyRegisterAccountByProvidingInvalidPhoneNumber"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- registerPagePackage.Register.TC_RF_010 -->
+      </class> <!-- registerPagePackage.Register.TC_RF_11 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
