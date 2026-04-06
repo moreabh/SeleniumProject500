@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-06T16:51:51 IST" name="Default suite" finished-at="2026-04-06T16:52:19 IST" duration-ms="27683">
+  <suite started-at="2026-04-06T17:13:09 IST" name="Default suite" finished-at="2026-04-06T17:13:16 IST" duration-ms="7428">
     <groups>
     </groups>
-    <test started-at="2026-04-06T16:51:51 IST" name="Default test" finished-at="2026-04-06T16:52:19 IST" duration-ms="27683">
-      <class name="registerPagePackage.Register.TC_RF_012">
-        <test-method signature="verifyRegisterAccountUsingKeyboardKeys()[pri:0, instance:registerPagePackage.Register.TC_RF_012@4802796d]" started-at="2026-04-06T16:51:51 IST" name="verifyRegisterAccountUsingKeyboardKeys" finished-at="2026-04-06T16:52:19 IST" duration-ms="27547" status="PASS">
+    <test started-at="2026-04-06T17:13:09 IST" name="Default test" finished-at="2026-04-06T17:13:16 IST" duration-ms="7428">
+      <class name="registerPagePackage.Register.TC_RF_13">
+        <test-method signature="verifyRegisterPageFieldPlaceHolders()[pri:0, instance:registerPagePackage.Register.TC_RF_13@7b98f307]" started-at="2026-04-06T17:13:09 IST" name="verifyRegisterPageFieldPlaceHolders" finished-at="2026-04-06T17:13:16 IST" duration-ms="7370" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegisterAccountUsingKeyboardKeys -->
-      </class> <!-- registerPagePackage.Register.TC_RF_012 -->
+        </test-method> <!-- verifyRegisterPageFieldPlaceHolders -->
+      </class> <!-- registerPagePackage.Register.TC_RF_13 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
