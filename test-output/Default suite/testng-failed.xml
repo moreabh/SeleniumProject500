@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="registerPagePackage.Register.TC_RF_012">
+      <class name="registerPagePackage.Register.TC_RF_17">
         <methods>
-          <include name="verifyRegisterAccountUsingKeyboardKeys"/>
+          <include name="tearDown"/>
+          <include name="checkingPasswordCoplexityStndardsOnRegisterPage" invocation-numbers="0 1 2 3 4 5 6"/>
         </methods>
-      </class> <!-- registerPagePackage.Register.TC_RF_012 -->
+      </class> <!-- registerPagePackage.Register.TC_RF_17 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
