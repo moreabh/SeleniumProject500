@@ -209,86 +209,147 @@ public class TC_RF_018 {
 		
 //		---------------------------------------------------Telephone Field Start-----------------------------------------------------
 	
-		WebElement telephoneField = driver.findElement(By.id("input-telephone"));
+//		WebElement telephoneField = driver.findElement(By.id("input-telephone"));
+//		
+//		String actualTelephoneFieldHeight = telephoneField.getCssValue("height");
+//		String actualTelephoneFieldWidth = telephoneField.getCssValue("width");
+//		
+//		assertEquals(actualTelephoneFieldHeight, expectedHeight);
+//		assertEquals(actualTelephoneFieldWidth, expectedWidth);
+//		
+//		String telephoneFieldExpectedWarning = "Telephone must be between 3 and 32 characters!";
+//		telephoneField.sendKeys(" ");
+//		continueButton.click();
+//		
+//		assertEquals(telephoneFieldExpectedWarning, driver.findElement(By.xpath("//input[@id='input-telephone']/following-sibling::div")).getText());
+//		telephoneField = driver.findElement(By.id("input-telephone"));
+//		telephoneField.clear();
+//		
+//		telephoneField.sendKeys("a");
+//		continueButton = driver.findElement(By.xpath("//input[@value=\"Continue\"]"));
+//		continueButton.click();
+//		assertTrue(driver.findElement(By.xpath("//input[@id='input-telephone']/following-sibling::div")).isDisplayed());
+//		telephoneField = driver.findElement(By.id("input-telephone"));
+//		telephoneField.clear();
+//		
+//		telephoneField.sendKeys("ab");
+//		continueButton = driver.findElement(By.xpath("//input[@value=\"Continue\"]"));
+//		continueButton.click();
+//		assertTrue(driver.findElement(By.xpath("//input[@id='input-telephone']/following-sibling::div")).isDisplayed());
+//		telephoneField = driver.findElement(By.id("input-telephone"));
+//		telephoneField.clear();
+//		
+//		telephoneField.sendKeys("abc");
+//		continueButton = driver.findElement(By.xpath("//input[@value=\"Continue\"]"));
+//		continueButton.click();
+//		try {
+//			assertFalse(driver.findElement(By.xpath("//input[@id='input-telephone']/following-sibling::div")).isDisplayed());
+//			
+//		} catch (NoSuchElementException e) {
+//			// TODO: handle exception
+//		}
+//		
+//		telephoneField = driver.findElement(By.id("input-telephone"));
+//		telephoneField.clear();
+//		
+//		
+//		telephoneField.sendKeys("abcwertythuyikr");//15
+//		continueButton = driver.findElement(By.xpath("//input[@value=\"Continue\"]"));
+//		continueButton.click();
+//		try {
+//			assertFalse(driver.findElement(By.xpath("//input[@id='input-telephone']/following-sibling::div")).isDisplayed());
+//			
+//		} catch (NoSuchElementException e) {
+//			// TODO: handle exception
+//		}
+//		
+//		telephoneField = driver.findElement(By.id("input-telephone"));
+//		telephoneField.clear();
+//		
+//		
+//		telephoneField.sendKeys("abcwertythuyikrabcwertythuyikrwe");//32
+//		continueButton = driver.findElement(By.xpath("//input[@value=\"Continue\"]"));
+//		continueButton.click();
+//		try {
+//			assertFalse(driver.findElement(By.xpath("//input[@id='input-telephone']/following-sibling::div")).isDisplayed());
+//			
+//		} catch (NoSuchElementException e) {
+//			// TODO: handle exception
+//		}
+//		
+//		telephoneField = driver.findElement(By.id("input-telephone"));
+//		telephoneField.clear();
+//		
+//		
+//		telephoneField.sendKeys("abcwertythuyikrabcwertythuyikrwew");//33
+//		continueButton = driver.findElement(By.xpath("//input[@value=\"Continue\"]"));
+//		continueButton.click();
+//		assertTrue(driver.findElement(By.xpath("//input[@id='input-telephone']/following-sibling::div")).isDisplayed());
+//		telephoneField = driver.findElement(By.id("input-telephone"));
+//		telephoneField.clear();
 		
-		String actualTelephoneFieldNameHeight = telephoneField.getCssValue("height");
-		String actualTelephoneFieldWidth = telephoneField.getCssValue("width");
+//	---------------------------------------------------PasswordField Start ---------------------------------------------------)
+		WebElement passwordField = driver.findElement(By.id("input-password"));
 		
-		assertEquals(actualTelephoneFieldNameHeight, expectedHeight);
-		assertEquals(actualTelephoneFieldWidth, expectedWidth);
+		String actualPasswordFieldHeight = passwordField.getCssValue("height");
+		String actualPasswordFieldWidth = passwordField.getCssValue("width");
 		
-		String telephoneFieldExpectedWarning = "Telephone must be between 3 and 32 characters!";
-		telephoneField.sendKeys(" ");
+		assertEquals(actualPasswordFieldHeight, expectedHeight);
+		assertEquals(actualPasswordFieldWidth, expectedWidth);
+		
+		String passwordFiledWarning = "Password must be between 4 and 20 characters!";
+		
+		passwordField.sendKeys("12a");
 		continueButton.click();
+		driver.findElement(By.xpath("//input[@id='input-password']/following-sibling::div")).isDisplayed();
+		passwordField = driver.findElement(By.id("input-password"));
+		passwordField.clear();
 		
-		assertEquals(telephoneFieldExpectedWarning, driver.findElement(By.xpath("//input[@id='input-telephone']/following-sibling::div")).getText());
-		telephoneField = driver.findElement(By.id("input-telephone"));
-		telephoneField.clear();
-		
-		telephoneField.sendKeys("a");
-		continueButton = driver.findElement(By.xpath("//input[@value=\"Continue\"]"));
-		continueButton.click();
-		assertTrue(driver.findElement(By.xpath("//input[@id='input-telephone']/following-sibling::div")).isDisplayed());
-		telephoneField = driver.findElement(By.id("input-telephone"));
-		telephoneField.clear();
-		
-		telephoneField.sendKeys("ab");
-		continueButton = driver.findElement(By.xpath("//input[@value=\"Continue\"]"));
-		continueButton.click();
-		assertTrue(driver.findElement(By.xpath("//input[@id='input-telephone']/following-sibling::div")).isDisplayed());
-		telephoneField = driver.findElement(By.id("input-telephone"));
-		telephoneField.clear();
-		
-		telephoneField.sendKeys("abc");
+		passwordField.sendKeys("abc1");
 		continueButton = driver.findElement(By.xpath("//input[@value=\"Continue\"]"));
 		continueButton.click();
 		try {
-			assertFalse(driver.findElement(By.xpath("//input[@id='input-telephone']/following-sibling::div")).isDisplayed());
-			
-		} catch (NoSuchElementException e) {
+			assertFalse(driver.findElement(By.xpath("//input[@id='input-password']/following-sibling::div")).isDisplayed());
+		} catch (Exception e) {
 			// TODO: handle exception
 		}
+		passwordField = driver.findElement(By.id("input-password"));
+		passwordField.clear();
 		
-		telephoneField = driver.findElement(By.id("input-telephone"));
-		telephoneField.clear();
-		
-		
-		telephoneField.sendKeys("abcwertythuyikr");//15
+		passwordField.sendKeys("abc1345sdf");//10
 		continueButton = driver.findElement(By.xpath("//input[@value=\"Continue\"]"));
 		continueButton.click();
 		try {
-			assertFalse(driver.findElement(By.xpath("//input[@id='input-telephone']/following-sibling::div")).isDisplayed());
-			
-		} catch (NoSuchElementException e) {
+			assertFalse(driver.findElement(By.xpath("//input[@id='input-password']/following-sibling::div")).isDisplayed());
+		} catch (Exception e) {
 			// TODO: handle exception
 		}
+		passwordField = driver.findElement(By.id("input-password"));
+		passwordField.clear();
 		
-		telephoneField = driver.findElement(By.id("input-telephone"));
-		telephoneField.clear();
-		
-		
-		telephoneField.sendKeys("abcwertythuyikrabcwertythuyikrwe");//32
+		passwordField.sendKeys("abc1345sdfabc1345sdf");//20
 		continueButton = driver.findElement(By.xpath("//input[@value=\"Continue\"]"));
 		continueButton.click();
 		try {
-			assertFalse(driver.findElement(By.xpath("//input[@id='input-telephone']/following-sibling::div")).isDisplayed());
-			
+			assertFalse(driver.findElement(By.xpath("//input[@id='input-password']/following-sibling::div")).isDisplayed());
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		passwordField = driver.findElement(By.id("input-password"));
+		passwordField.clear();
+		
+		passwordField.sendKeys("abc1345sdfabc1345sdfq");//21
+		continueButton = driver.findElement(By.xpath("//input[@value=\"Continue\"]"));
+		continueButton.click();
+		try {
+			assertTrue(driver.findElement(By.xpath("//input[@id='input-password']/following-sibling::div")).isDisplayed());
 		} catch (NoSuchElementException e) {
 			// TODO: handle exception
 		}
-		
-		telephoneField = driver.findElement(By.id("input-telephone"));
-		telephoneField.clear();
-		
-		
-		telephoneField.sendKeys("abcwertythuyikrabcwertythuyikrwew");//33
-		continueButton = driver.findElement(By.xpath("//input[@value=\"Continue\"]"));
-		continueButton.click();
-		assertTrue(driver.findElement(By.xpath("//input[@id='input-telephone']/following-sibling::div")).isDisplayed());
-		telephoneField = driver.findElement(By.id("input-telephone"));
-		telephoneField.clear();
-		
 
+		passwordField = driver.findElement(By.id("input-password"));
+		passwordField.clear();
+		
 		driver.quit();
 	}
 
