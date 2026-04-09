@@ -25,6 +25,6 @@ public class TC_RF_020 {
 		assertFalse(driver.findElement(By.xpath("//input[@name='agree'][@value='1']")).isSelected());
 		
 		driver.quit();
-	
+		
 	}
 }
