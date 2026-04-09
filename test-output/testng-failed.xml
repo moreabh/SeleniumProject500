@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="registerPagePackage.Register.TC_RF_020">
+      <class name="registerPagePackage.Register.TC_RF_018">
         <methods>
-          <include name="verifyPrivacyPolicyFieldOnRegisterAccountPage"/>
+          <include name="verifyingTheRegisteringFieldAccordingToClientRequirement"/>
         </methods>
-      </class> <!-- registerPagePackage.Register.TC_RF_020 -->
+      </class> <!-- registerPagePackage.Register.TC_RF_018 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
