@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-14T11:56:25 IST" name="Default suite" finished-at="2026-04-14T11:56:45 IST" duration-ms="20313">
+  <suite started-at="2026-04-14T13:16:24 IST" name="Default suite" finished-at="2026-04-14T13:16:35 IST" duration-ms="10131">
     <groups>
     </groups>
-    <test started-at="2026-04-14T11:56:25 IST" name="Default test" finished-at="2026-04-14T11:56:45 IST" duration-ms="20313">
-      <class name="registerPagePackage.Register.TC_RF_024">
-        <test-method signature="verifyPasswordFiledByKeepingConfirmPasswordFieldEmpty()[pri:0, instance:registerPagePackage.Register.TC_RF_024@4802796d]" started-at="2026-04-14T11:56:25 IST" name="verifyPasswordFiledByKeepingConfirmPasswordFieldEmpty" finished-at="2026-04-14T11:56:45 IST" duration-ms="20266" status="PASS">
+    <test started-at="2026-04-14T13:16:24 IST" name="Default test" finished-at="2026-04-14T13:16:35 IST" duration-ms="10131">
+      <class name="registerPagePackage.Register.TC_RF_025">
+        <test-method signature="verifyBreadcrumbPageHeadingPageURLPAgeTitleOfRegisterAccountPage()[pri:0, instance:registerPagePackage.Register.TC_RF_025@7b98f307]" started-at="2026-04-14T13:16:24 IST" name="verifyBreadcrumbPageHeadingPageURLPAgeTitleOfRegisterAccountPage" finished-at="2026-04-14T13:16:35 IST" duration-ms="10089" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyPasswordFiledByKeepingConfirmPasswordFieldEmpty -->
-      </class> <!-- registerPagePackage.Register.TC_RF_024 -->
+        </test-method> <!-- verifyBreadcrumbPageHeadingPageURLPAgeTitleOfRegisterAccountPage -->
+      </class> <!-- registerPagePackage.Register.TC_RF_025 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
