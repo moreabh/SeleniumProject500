@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="registerPagePackage.Register.TC_RF_23">
+      <class name="registerPagePackage.Register.TC_RF_026">
         <methods>
-          <include name="verifyingNavigatingToOtherPageOptionsAndLinks"/>
+          <include name="verifyingTheUIOfRegisterAccountPage"/>
         </methods>
-      </class> <!-- registerPagePackage.Register.TC_RF_23 -->
+      </class> <!-- registerPagePackage.Register.TC_RF_026 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
